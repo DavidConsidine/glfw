@@ -34,12 +34,11 @@ project "GLFW"
             "src/wgl_context.c",
             "src/egl_context.c",
             "src/osmesa_context.c"
-
         }
 
         defines
         {
-            "GLFW_WIN32",
+            "_GLFW_WIN32",
             "_CRT_SECURE_NO_WARNINGS"
         }
     
